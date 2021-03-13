@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lesson 3</title>
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<header class="header">
+		<div class="header-inner grid">
+			<img class="header__menu" src="images/menu.svg" onclick="toggleAside()">
+			<img class="header__logo" src="images/logo.svg">
+			<div class="navigation">
+				<a class="navigation__item" href="#">About</a>
+				<a class="navigation__item" href="#">Contact</a>
+				<a class="navigation__item" href="#">Portfolio</a>
+				<a class="navigation__item" href="#">Partners</a>
+				<a class="navigation__item" href="#">Address</a>
+			</div>
+		</div>
+	</header>
+	<section id="aside" class="aside"></section>
+	<section id="aside-background" class="aside-background" onclick="toggleAside()"></section>
+	<section class="main">
+		<div class="main-inner grid">
+			<span class="main-title">NEW BRANDING AGENCY</span>
+			<span class="main-subtitle main-subtitle--bold">
+				We are about to change the way
+			</span>
+			<span class="main-subtitle main-subtitle--italic">
+				you publish on the web
+			</span>
+			<button class="button">
+				FREE DOWNLOAD
+			</button>
+		</div>
+		<img class="main__arrow" src="images/arrow.svg">	
+	</section>
+	<!-- <section class="about">
+		
+	</section> -->
+	<section class="experience">
+		<div class="experience-inner grid">
+			<div class="experience-item">
+				<img class="experience-item__image" src="images/arrow.svg">
+			<div class="experience-info">
+				<span class="experience-info__value">548</span>
+				<span class="experience-info__name">PROJECTS COMPLETED</span>
+			</div>
+			</div>
+			<div class="experience-item">
+				<img class="experience-item__image" src="images/arrow.svg">
+				<div class="experience-info">
+					<span class="experience-info__value">548</span>
+					<span class="experience-info__name">PROJECTS COMPLETED</span>
+				</div>
+			</div>
+			<div class="experience-item">
+				<img class="experience-item__image" src="images/arrow.svg">
+				<div class="experience-info">
+					<span class="experience-info__value">548</span>
+					<span class="experience-info__name">PROJECTS COMPLETED</span>
+				</div>
+			</div>
+			<div class="experience-item">
+				<img class="experience-item__image" src="images/arrow.svg">
+				<div class="experience-info">
+					<span class="experience-info__value">548</span>
+					<span class="experience-info__name">PROJECTS COMPLETED</span>
+				</div>
+			</div>	
+		</div>
+	</section>
+	<section class="porfolio">
+		<div class="portfolio-inner grid">
+			<section class="section-head">
+				<span class="section-head__title">
+					Best Projects
+				</span>
+				<span class="section-head__description">
+					Donec orci sem, pretium ac dolor et, faucibus faucibus mauris. Etiam,pellentesque faucibus. Vestibulum gravida volutpat ipsum non ultrices.
+				</span>
+			</section>
+			<div class="portfolio-content">
+				<div class="portfolio-item" style="background-image: url(images/portfolio1.jpg)">
+					<div class="portfolio-wrapper">
+						<div class="portfolio-info">
+							<span class="portfolio-wrapper__title">
+								Vynyl Record
+							</span>
+							<span class="portfolio-wrapper__subtitle">
+								MOCKUP
+							</span>
+						</div>
+					</div>	
+				</div>
+				<div class="portfolio-item" style="background-image: url(images/portfolio1.jpg)">
+					<div class="portfolio-wrapper">
+						<div class="portfolio-info">
+							<span class="portfolio-wrapper__title">
+								Vynyl Record
+							</span>
+							<span class="portfolio-wrapper__subtitle">
+								MOCKUP
+							</span>
+						</div>
+					</div>	
+				</div>
+				<div class="portfolio-item" style="background-image: url(images/portfolio1.jpg)">
+					<div class="portfolio-wrapper">
+						<div class="portfolio-info">
+							<span class="portfolio-wrapper__title">
+								Vynyl Record
+							</span>
+							<span class="portfolio-wrapper__subtitle">
+								MOCKUP
+							</span>
+						</div>
+					</div>	
+				</div>
+				<div class="portfolio-item" style="background-image: url(images/portfolio1.jpg)">
+					<div class="portfolio-wrapper">
+						<div class="portfolio-info">
+							<span class="portfolio-wrapper__title">
+								Vynyl Record
+							</span>
+							<span class="portfolio-wrapper__subtitle">
+								MOCKUP
+							</span>
+						</div>
+					</div>	
+				</div>
+				<div class="portfolio-item" style="background-image: url(images/portfolio1.jpg)">
+					<div class="portfolio-wrapper">
+						<div class="portfolio-info">
+							<span class="portfolio-wrapper__title">
+								Vynyl Record
+							</span>
+							<span class="portfolio-wrapper__subtitle">
+								MOCKUP
+							</span>
+						</div>
+					</div>	
+				</div>
+				<div class="portfolio-item" style="background-image: url(images/portfolio1.jpg)">
+					<div class="portfolio-wrapper">
+						<div class="portfolio-info">
+							<span class="portfolio-wrapper__title">
+								Vynyl Record
+							</span>
+							<span class="portfolio-wrapper__subtitle">
+								MOCKUP
+							</span>
+						</div>
+					</div>	
+				</div>
+				<div class="portfolio-item" style="background-image: url(images/portfolio1.jpg)">
+					<div class="portfolio-wrapper">
+						<div class="portfolio-info">
+							<span class="portfolio-wrapper__title">
+								Vynyl Record
+							</span>
+							<span class="portfolio-wrapper__subtitle">
+								MOCKUP
+							</span>
+						</div>
+					</div>	
+				</div>
+				<div class="portfolio-item" style="background-image: url(images/portfolio1.jpg)">
+					<div class="portfolio-wrapper">
+						<div class="portfolio-info">
+							<span class="portfolio-wrapper__title">
+								Vynyl Record
+							</span>
+							<span class="portfolio-wrapper__subtitle">
+								MOCKUP
+							</span>
+						</div>
+					</div>	
+				</div>
+				<div class="portfolio-item" style="background-image: url(images/portfolio1.jpg)">
+					<div class="portfolio-wrapper">
+						<div class="portfolio-info">
+							<span class="portfolio-wrapper__title">
+								Vynyl Record
+							</span>
+							<span class="portfolio-wrapper__subtitle">
+								MOCKUP
+							</span>
+						</div>
+					</div>	
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="blog">
+		<div class="blog-inner grid">
+			<section class="section-head">
+				<span class="section-head__title">
+					Latest Blog
+				</span>
+				<span class="section-head__description">
+					Donec orci sem, pretium ac dolor et, faucibus faucibus mauris. Etiam,pellentesque faucibus. Vestibulum gravida volutpat ipsum non ultrices.
+				</span>
+			</section>
+			<div class="blog-content">
+				<div class="blog-item">
+					<div class="blog-head">
+						<img class="blog-head__image" src="images/blog1.jpg">
+						<button class="button button--sm blog-head__button">
+							Branding
+						</button>
+					</div>
+					<div class="blog-info">
+						<span class="blog-info__title">
+							Are you doing the right way?
+						</span>
+						<span class="blog-info__date">
+							September, 18, 2020
+						</span>
+						<span class="blog-info__description">
+							That female isn't midst divide kind upon seas lights greater green creature lights brought.
+						</span>
+					</div>
+				</div>
+				<div class="blog-item">
+					<div class="blog-head">
+						<img class="blog-head__image" src="images/blog1.jpg">
+						<button class="button button--sm blog-head__button">
+							Branding
+						</button>
+					</div>
+					<div class="blog-info">
+						<span class="blog-info__title">
+							Are you doing the right way?
+						</span>
+						<span class="blog-info__date">
+							September, 18, 2020
+						</span>
+						<span class="blog-info__description">
+							That female isn't midst divide kind upon seas lights greater green creature lights brought.
+						</span>
+					</div>
+				</div>
+				<div class="blog-item">
+					<div class="blog-head">
+						<img class="blog-head__image" src="images/blog1.jpg">
+						<button class="button button--sm blog-head__button">
+							Branding
+						</button>
+					</div>
+					<div class="blog-info">
+						<span class="blog-info__title">
+							Are you doing the right way?
+						</span>
+						<span class="blog-info__date">
+							September, 18, 2020
+						</span>
+						<span class="blog-info__description">
+							That female isn't midst divide kind upon seas lights greater green creature lights brought.
+						</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="contact">
+		<div class="contact-inner grid">
+			<div class="contact-info">
+				<span class="contact-info__title">Contact Info:</span>
+				<span class="contact-info__description">
+					Praesent interdum congue mauris, et fringilla lacus pel vitae. Quisque nisl mauris, aliquam eu ultrices vel, conse vitae sapien at imperdiet risus. Quisque cursus risus id. fermentum, in auctor quam consectetur.
+				</span>
+				<span class="contact-text">
+					<b>Adress: </b> 10111 Santa Monica Boulevard, LA
+				</span>
+				<span class="contact-text">
+					<b>Phone: </b> +44 987 065 908
+				</span>
+				<span class="contact-text">
+					<b>Email: </b> info@Example.com
+				</span>
+				<span class="contact-text">
+					<b>Fax: </b> +44 987 065 909
+				</span>		
+			</div>
+			<!-- GET POST PUT DELETE  -->
+			<form class="contact-form" action="https://kleki.com/" method="GET">
+				<div class="form-item">
+					<input class="input input--half" type="text" name="" placeholder="Your Name">
+					<input class="input input--half" type="email" name="" placeholder="Your Email">	
+				</div>	
+				<input class="input" type="text" name="" placeholder="Your Title">	
+				<textarea class="input input--textarea" placeholder="Your comment"></textarea>
+				<button class="button button--m" type="submit">
+					SEND MESSAGE
+				</button>
+			</form>
+		</div>
+	</section>
+</body>
+<script type="text/javascript">
+	var aside = document.getElementById("aside");
+	var asideBackground = document.getElementById("aside-background");
+	var isAside = false;
+
+	function toggleAside() {
+		if(isAside === false) {
+			aside.style.left = "0px";
+			asideBackground.style.display = "block";
+			isAside = true;
+		} else {
+			aside.style.left = "-300px";
+			asideBackground.style.display = "none";
+			isAside = false;
+		}
+	};
+</script>
+<script type="text/javascript" src="js/index.js"></script>
+</html>

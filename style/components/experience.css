@@ -1,0 +1,58 @@
+.experience {
+	/*background-color: #000000;*/
+	background-color: rgb(0, 0, 0);
+	padding: 100px 0;
+}
+
+.experience-inner {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.experience-item {
+	width: 25%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	color: rgb(255, 255, 255);
+}
+
+.experience-item__image {
+	width: 50px;
+}
+
+.experience-info {
+
+}
+
+.experience-info > span {
+	display: block;
+}
+
+.experience-info__value {
+	padding-bottom: 10px;
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.experience-info__name {
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+@media screen and (max-width: 767px) {
+	.experience-inner {
+		width: 90%;
+	}
+
+	.experience-item {
+		width: 100%;
+		padding: 20px 0;
+		justify-content: flex-start;
+	}	
+
+	.experience-item__image {
+		padding-right: 20px;
+	}
+}

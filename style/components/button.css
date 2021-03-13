@@ -1,0 +1,32 @@
+.button {
+	font-size: 16px;
+	padding: 20px 30px;
+	color: #ffffff;
+	background-color: rgba(0, 0, 0, .8);
+	border: 1px solid rgba(0, 0, 0, .8);
+	outline: none;
+	cursor: pointer;
+	text-transform: uppercase;
+}
+
+.button:hover {
+	background-color: #444;
+	border-color: #444;
+	transition: .3s ease-out;
+}
+
+.button:active {
+	background-color: rgba(0, 0, 0, .8);
+	border-color: rgba(0, 0, 0, .8);
+	transition: .3s ease-out;
+}
+
+.button--sm {
+	padding: 10px;
+	font-size: 13px;
+}
+
+.button--m {
+	padding: 15px;
+	font-size: 15px;
+}

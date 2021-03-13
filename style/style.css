@@ -1,0 +1,13 @@
+@import url('components/reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,900;1,700&display=swap');
+@import url('components/grid.css');
+@import url('components/header.css');
+@import url('components/aside.css');
+@import url('components/main.css');
+@import url('components/button.css');
+@import url('components/experience.css');
+@import url('components/section-head.css');
+@import url('components/portfolio.css');
+@import url('components/blog.css');
+@import url('components/contact.css');
+@import url('components/input.css');

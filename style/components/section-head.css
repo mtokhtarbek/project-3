@@ -1,0 +1,23 @@
+.section-head {
+	max-width: 700px;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.section-head > span {
+	display: block;
+}
+
+.section-head__title {
+	font-size: 40px;
+	font-family: Playfair Display, serif;
+    color: #171717;
+    font-weight: 700;
+    padding-bottom: 35px;
+}
+
+.section-head__description {
+	font-size: 16px;
+	line-height: 1.3;
+}
